@@ -1,4 +1,6 @@
-import React from 'react'
+import team1 from '../assets/Images/Profiles/Team/team1.png';
+
+
 
 const Team = () => {
   return (
@@ -12,9 +14,15 @@ const Team = () => {
 
         </div>
         <div className='flex md:flex-row sm:flex-row flex-col s items-center justify-center gap-6 p-12'>
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
+            <div>
+              <img src={team1} alt="" className='rounded-full border' />
+            </div>
+            <div>
+            <img src={team1} alt="" className='rounded-full border' />
+            </div>
+            <div>
+            <img src={team1} alt="" className='rounded-full border' />
+            </div>
              
         </div>
         
